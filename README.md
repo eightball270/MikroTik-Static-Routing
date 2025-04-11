@@ -1,5 +1,5 @@
 # MikroTik-Static-Routing
-<a name="Cisco"></a>Just like configuring static routing on [https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals?tab=readme-ov-file#static-routing], in MikroTik routers we also have to configure static routing on each router by manually creating a routing table. The configuration of creating a routing table is to enter the destination network address and its gateway.
+<a name="https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals?tab=readme-ov-file#static-routing"></a>Just like configuring static routing on [Cisco], in MikroTik routers we also have to configure static routing on each router by manually creating a routing table. The configuration of creating a routing table is to enter the destination network address and its gateway.
 
 ## Technology Used
 - GNS3
