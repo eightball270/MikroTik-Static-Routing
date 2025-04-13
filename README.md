@@ -1,4 +1,4 @@
-# MikroTik-Static-Routing
+# MikroTik Static Routing
 Just like configuring static routing on [Cisco](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals?tab=readme-ov-file#static-routing), MikroTik routers must also configure static routing on each router by manually creating a routing table. The configuration of creating a routing table is to enter the destination network address and its gateway.
 
 ## Technology Used
@@ -20,7 +20,8 @@ Just like configuring static routing on [Cisco](https://github.com/eightball270/
 In a Mikrotik router, form a routing table by adding the destination network address (dst-address) and its gateway, for example so that a client directly connected to router R2 can connect to network address 192.168.10.0/25, then configure router R2 static routing with dst-address 192.168.10.0/25 with router R1's ip address directly connected to router R2 (10.10.10.1) as the gateway. The command-line format on Mikrotik is "ip route add dst-address=192.168.10.0/25 gateway=10.10.10.1".
 
 ![Static Routing (MikroTik)](https://github.com/eightball270/MikroTik-Static-Routing/blob/main/Static%20Routing%20(MikroTik).png)
-[Project Link](https://github.com/eightball270/MikroTik-Static-Routing/blob/main/Static%20Routing%20(MikroTik).gns3project.7z)
+
+[Project File Link](https://github.com/eightball270/MikroTik-Static-Routing/blob/main/Static%20Routing%20(MikroTik).gns3project.7z)
 
 Traceroute from PC12 (192.168.30.131/25) to PC6 (192.168.20.3/25) and PC1 (192.168.10.2/25) :
 
