@@ -1,4 +1,4 @@
-# MikroTik Static Routing
+# MikroTik Static Routingg
 Just like configuring static routing on [Cisco](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals?tab=readme-ov-file#static-routing), MikroTik routers must also configure static routing on each router by manually creating a routing table. The configuration of creating a routing table is to enter the destination network address and its gateway.
 
 ## Technology Used
