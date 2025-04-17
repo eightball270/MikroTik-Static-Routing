@@ -1,5 +1,5 @@
 # MikroTik Static Routing
-Just like configuring static routing on [Cisco](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals?tab=readme-ov-file#static-routing), MikroTik routers must also configure static routing on each router by manually creating a routing table. The configuration of creating a routing table is to enter the destination network address and its gateway.
+Just like configuring static routing on [Cisco](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals?tab=readme-ov-file#static-routing) devices, MikroTik routers also require static routing to be configured on each router by manually creating a routing table. To create a routing table, you need to enter the destination network address and its corresponding gateway.
 
 ## Technology Used
 - GNS3
@@ -11,13 +11,13 @@ Just like configuring static routing on [Cisco](https://github.com/eightball270/
 4. Crossover Cables (for inter-router connection)
 
 ## Configuration Completed
-1. VLAN on routers and switches
-2. IP address on the router which is used as the gateway for each client PCs and inter-router network
+1. VLANs on routers and switches
+2. The IP address on the router is used as the gateway for each client PC and for the inter-router network
 3. Static IP address of each client PCs
 4. Static routing configuration via command-line
 
 ## Static Routing
-In a Mikrotik router, form a routing table by adding the destination network address (dst-address) and its gateway, for example so that a client directly connected to router R2 can connect to network address 192.168.10.0/25, then configure router R2 static routing with dst-address 192.168.10.0/25 with router R1's ip address directly connected to router R2 (10.10.10.1) as the gateway. The command-line format on Mikrotik is "ip route add dst-address=192.168.10.0/25 gateway=10.10.10.1".
+On a MikroTik router, a routing table is formed by adding the destination network address (dst-address) and its corresponding gateway. For example, to allow a client directly connected to Router R2 to access the 192.168.10.0/25 network, configure static routing on Router R2 with dst-address 192.168.10.0/25 and use the IP address of Router R1 (10.10.10.1), which is directly connected to Router R2, as the gateway. The command-line format on MikroTik is "ip route add dst-address=192.168.10.0/25 gateway=10.10.10.1".
 
 ![Static Routing (MikroTik)](https://github.com/eightball270/MikroTik-Static-Routing/blob/main/Static%20Routing%20(MikroTik).png)
 
