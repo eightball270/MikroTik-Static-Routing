@@ -21,9 +21,8 @@ On a MikroTik router, a routing table is formed by adding the destination networ
 
 ![Static Routing (MikroTik).png](https://github.com/eightball270/MikroTik-Static-Routing/blob/main/Static%20Routing%20(MikroTik).png)
 
-[Project File Link](https://github.com/eightball270/MikroTik-Static-Routing/blob/main/Static%20Routing%20(MikroTik).gns3project.7z) (extract the file first)
+[Project File Link](https://github.com/eightball270/MikroTik-Static-Routing/blob/main/Static%20Routing%20(MikroTik).gns3project.rar) (extract the file first)
 
 Traceroute from PC12 (192.168.30.131/25) to PC6 (192.168.20.3/25) and PC1 (192.168.10.2/25) :
 
 ![Static Routing (MikroTik) (1).png](https://github.com/eightball270/MikroTik-Static-Routing/blob/main/Static%20Routing%20(MikroTik)%20(1).png)
-
