@@ -10,7 +10,7 @@ Similar to static routing configuration on [Cisco](https://github.com/eightball2
 3. Straight-Through Cables
 4. Crossover Cables (for inter-router connection)
 
-## Configuration Completed
+## Configuration Done
 1. VLANs on routers and switches
 2. The IP address on the router is used as the gateway for each client PC and for the inter-router network
 3. Static IP address of each client PCs
