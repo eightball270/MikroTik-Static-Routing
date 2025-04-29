@@ -17,7 +17,8 @@ Similar to static routing configuration on [Cisco](https://github.com/eightball2
 4. Static routing configuration via command-line
 
 ## Static Routing
-On a MikroTik router, a routing table is formed by adding the destination network address (dst-address) and its corresponding gateway. For example, to allow a client directly connected to Router R2 to access the 192.168.10.0/25 network, configure static routing on Router R2 with dst-address 192.168.10.0/25 and use the IP address of Router R1 (10.10.10.1), which is directly connected to Router R2, as the gateway. The command-line format on MikroTik is "ip route add dst-address=192.168.10.0/25 gateway=10.10.10.1".
+On a MikroTik router, a routing table is formed by adding the destination network address (dst-address) and its corresponding gateway. For example, to allow a client directly connected to Router R2 to access the 192.168.10.0/25 network, configure static routing on Router R2 with dst-address 192.168.10.0/25 and use the IP address of Router R1 (10.10.10.1), which is directly connected to Router R2, as the gateway. The command-line format on MikroTik is:  
+`[admin@MikroTik] > ip route add dst-address=192.168.10.0/25 gateway=10.10.10.1`  
 
 ![Static Routing (MikroTik).png](https://github.com/eightball270/MikroTik-Static-Routing/blob/main/Static%20Routing%20(MikroTik).png)
 
