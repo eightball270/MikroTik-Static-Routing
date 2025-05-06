@@ -1,14 +1,12 @@
 # MikroTik Static Routing
 Similar to static routing configuration on [Cisco](https://github.com/eightball270/CodingStudio-ComputerNetworkFundamentals?tab=readme-ov-file#static-routing) devices, MikroTik routers also require static routing to be configured on each router by manually creating a routing table. This configuration involves specifying the destination network address and its corresponding gateway.
 
-## Technology Used
+## Simulator Used
 - GNS3
 
-## Requirements
-1. 6 Client PCs
-2. 3 Routers and Swithces
-3. Straight-Through Cables
-4. Crossover Cables (for inter-router connection)
+## Requirement Nodes
+1. 3 Routers and Swithces
+2. 6 Client PCs
 
 ## Configuration Done
 1. The IP address on the router is used as the gateway for each client PC and for the inter-router network
